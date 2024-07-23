@@ -1,0 +1,85 @@
+
+.card1 {
+    color: black;
+    background-color: yellow;
+    height: 200px;
+    width: 150px;
+    border-radius: 30px;
+    padding: 10px 0 0 0;
+    text-align:center;
+    margin: 0 0 0 240px;
+}
+.card2 {
+    color: black;
+    background-color: yellow;
+    height: 200px;
+    width: 150px;
+    border-radius: 30px;
+    padding: 10px 0 0 0;
+    position: fixed;
+    top: 145px;
+    right: 415px;
+    text-align:center;
+}
+.card3 {
+    color: black;
+    background-color: yellow;
+    height: 200px;
+    width: 150px;
+    border-radius: 30px;
+    padding: 10px 0 0 0;
+    position: fixed;
+    top: 145px;
+    right:250px;
+    text-align:center;
+}
+
+.cardtitle {
+  font-weight: bold;
+  
+}
+button {
+  background-color: red;
+  margin 10px 0 10px 0;
+  height: 30px;
+  width: 70px;
+  border: none;
+  border-radius: 0 20px 0 20px
+}
+
+body {
+ background-color: slateblue;
+ font-family: Arial;
+ color: white;
+ text-align: center;
+}
+.redirect {
+ background-color: white;
+ font-size: 20px;
+ border-radius: 10px;
+ padding: 5px 100px 10px 100px;
+ display: block;
+ text-align: center;
+ margin: 10px;
+ color: slateblue;
+}
+a:link { 
+  text-decoration: none; 
+  color: slateblue;
+} 
+a:visited { 
+  text-decoration: none;
+  color: slateblue;
+  } 
+a:hover { 
+  text-decoration: none; 
+  color: slateblue;
+  } 
+a:active { 
+  text-decoration: none; 
+  color: slateblue;
+}
+
+ul {
+    list-style-type: none;
+}

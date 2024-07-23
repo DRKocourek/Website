@@ -1,0 +1,43 @@
+.boykisser {
+ border-radius: 50px;
+ margin: 10px;
+}
+h2 {
+ font-size: 18px;
+}
+body {
+ background-color: slateblue;
+ font-family: Trebuchet MS;
+ color: white;
+ text-align: center;
+}
+a {
+ background-color: white;
+ font-size: 30px;
+ border-radius: 20px;
+ padding: 15px 100px 15px 100px;
+ display: block;
+ text-align: center;
+ margin: 10px 0 0 10px;
+ color: slateblue;
+ vertical-align: middle;
+}
+a:link { 
+  text-decoration: none; 
+  color: slateblue;
+} 
+a:visited { 
+  text-decoration: none;
+  color: slateblue;
+  } 
+a:hover { 
+  text-decoration: none; 
+  color: slateblue;
+  } 
+a:active { 
+  text-decoration: none; 
+  color: slateblue;
+}
+span {
+    margin: 0 0 10px 0;
+}
