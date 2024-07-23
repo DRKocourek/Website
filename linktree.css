@@ -41,3 +41,8 @@ a:active {
 span {
     margin: 0 0 10px 0;
 }
+.home {
+ background-color: white;
+ height: 70px;
+ width: 70px;
+}

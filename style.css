@@ -1,3 +1,28 @@
+.faqcard1 {
+    color: slateblue;
+    background-color: white;
+    height: 200px;
+    width: 1000px;
+    border-radius: 30px;
+    padding: 10px 0 10px 0;
+    text-align:center;
+    margin: 10px 0 10px 0;
+    font-size: 30px;
+   }
+.newsh1{
+    font-size: 40px;
+}
+.newscard {
+    color: black;
+    background-color: yellow;
+    height: 200px;
+    width: 900px;
+    border-radius: 30px;
+    padding: 10px 0 0 0;
+    text-align:center;
+    margin: 20px 50px 20px 50px;
+}
+
 
 .card1 {
     color: black;
@@ -82,4 +107,22 @@ a:active {
 
 ul {
     list-style-type: none;
+}
+.home {
+ background-color: white;
+ height: 70px;
+ width: 70px;
+ margin: 0 0 0 465px;
+ border-radius: 10px;
+}
+.importantcard {
+    color: white;
+    background-color: red;
+    height: 200px;
+    width: 480px;
+    border-radius: 30px;
+    padding: 10px;
+    text-align:center;
+    margin: 30px 0 0 240px;
+    font-size: 25px;
 }
