@@ -41,7 +41,7 @@
     width: 150px;
     border-radius: 30px;
     padding: 10px 0 0 0;
-    position: fixed;
+    position: absolute;
     top: 145px;
     right: 415px;
     text-align:center;
@@ -53,7 +53,7 @@
     width: 150px;
     border-radius: 30px;
     padding: 10px 0 0 0;
-    position: fixed;
+    position: absolute;
     top: 145px;
     right:250px;
     text-align:center;
@@ -65,11 +65,11 @@
 }
 button {
   background-color: red;
-  margin 10px 0 10px 0;
+  margin: 10px 0 10px 0;
   height: 30px;
   width: 70px;
   border: none;
-  border-radius: 0 20px 0 20px
+  border-radius: 0 20px 0 20px;
 }
 
 body {
@@ -123,7 +123,7 @@ ul {
     border-radius: 30px;
     padding: 10px;
     text-align:center;
-    margin: 30px 0 0 240px;
+    margin: 10px 0 0 240px;
     font-size: 25px;
 }
 
@@ -134,8 +134,8 @@ ul {
     width: 150px;
     border-radius: 30px;
     padding: 10px 0 0 0;
-    position: fixed;
-    top: 615px;
+    position: absolute;
+    top: 595px;
     right: 415px;
     text-align:center;
 }
@@ -146,8 +146,8 @@ ul {
     width: 150px;
     border-radius: 30px;
     padding: 10px 0 0 0;
-    position: fixed;
-    top: 615px;
+    position: absolute;
+    top: 595px;
     right:250px;
     text-align:center;
 }
