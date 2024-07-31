@@ -20,7 +20,6 @@ a {
  text-align: center;
  margin: 10px 0 0 10px;
  color: slateblue;
- vertical-align: middle;
 }
 a:link { 
   text-decoration: none; 
@@ -45,4 +44,14 @@ span {
  background-color: white;
  height: 70px;
  width: 70px;
+}
+.youtube {
+  background-color: white;
+  font-size: 30px;
+  border-radius: 20px;
+  padding: 15px 100px 15px 100px;
+  display: block;
+  text-align: center;
+  margin: 10px 0 0 10px;
+  color: slateblue;
 }

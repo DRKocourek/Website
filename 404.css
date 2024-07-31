@@ -1,0 +1,35 @@
+body {
+    background-color: #182825;
+    color: #725AC1;
+    font-family: Arial;
+    text-align: center;
+}
+.text {
+    color: #8D86C9;
+}
+.redirect {
+    background-color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: slateblue;
+   }
+   a:link { 
+     text-decoration: none; 
+     color: slateblue;
+   } 
+   a:visited { 
+     text-decoration: none;
+     color: slateblue;
+     } 
+   a:hover { 
+     text-decoration: none; 
+     color: slateblue;
+     } 
+   a:active { 
+     text-decoration: none; 
+     color: slateblue;
+   }

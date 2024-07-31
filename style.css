@@ -5,8 +5,8 @@
     width: 1000px;
     border-radius: 30px;
     padding: 10px 0 10px 0;
-    text-align:center;
-    margin: 10px 0 10px 0px;
+    text-align: center;
+    margin: 10px 0 10px 250px;
     font-size: 30px;
    }
 .newsh1{
@@ -20,7 +20,7 @@
     border-radius: 30px;
     padding: 10px 0 0 0;
     text-align:center;
-    margin: 20px 30px 20px 30px;
+    margin: 20px 30px 20px 300px;
 }
 
 
@@ -32,7 +32,7 @@
     border-radius: 30px;
     padding: 10px 0 0 0;
     text-align:center;
-    margin: 10px 0 0 240px;
+    margin: 10px 0 0 500px;
 }
 .card2 {
     color: black;
@@ -43,7 +43,7 @@
     padding: 10px 0 0 0;
     position: absolute;
     top: 145px;
-    right: 415px;
+    left: 675px;
     text-align:center;
 }
 .card3 {
@@ -55,7 +55,7 @@
     padding: 10px 0 0 0;
     position: absolute;
     top: 145px;
-    right:250px;
+    left: 840px;
     text-align:center;
 }
 
@@ -112,7 +112,7 @@ ul {
  background-color: white;
  height: 70px;
  width: 70px;
- margin: 0 0 0 465px;
+ margin: 0 0 0 710px;
  border-radius: 10px;
 }
 .importantcard {
@@ -123,7 +123,7 @@ ul {
     border-radius: 30px;
     padding: 10px;
     text-align:center;
-    margin: 10px 0 0 240px;
+    margin: 10px 0 0 500px;
     font-size: 25px;
 }
 
@@ -136,7 +136,7 @@ ul {
     padding: 10px 0 0 0;
     position: absolute;
     top: 595px;
-    right: 415px;
+    left: 675px;
     text-align:center;
 }
 .card6 {
@@ -148,6 +148,16 @@ ul {
     padding: 10px 0 0 0;
     position: absolute;
     top: 595px;
-    right:250px;
+    left: 840px;
     text-align:center;
 }
+.github {
+  background-color: darkorange;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px 100px 10px 100px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: white;
+ }
