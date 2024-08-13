@@ -4,3 +4,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+.imgbutton {
+  margin-bottom: 50px;
+}
+img {
+}
+code {
+  background-color: #878484;
+  padding: 10px 200px 150px 10px;
+  color: white;
+  text-align: left;
+  margin-inline: 0 0 0 100px;
+  border-radius: 20px;
+}
+h3 {
+  color: white;
+  text-align: left;
+  background-color: black;
+  font-size: 15px;
+  margin-inline: 50px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
