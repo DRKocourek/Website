@@ -1,145 +1,163 @@
 body {
-background-color : slateblue;
-font-family : Arial;
-color : white;
-text-align : center;
+    background-color: slateblue;
+    font-family: Arial;
+    color: white;
+    text-align: center;
 }
+
 .redirect {
-background-color : white;
-font-size : 20px;
-border-radius : 10px;
-padding : 5px 100px 10px 100px;
-display : block;
-text-align : center;
-margin : 10px;
-color : slateblue;
-}
-a:link {
-text-decoration : none;
-color : slateblue;
-}
-a:visited {
-text-decoration : none;
-color : slateblue;
-}
-a:hover {
-text-decoration : none;
-color : slateblue;
-}
-a:active {
-text-decoration : none;
-color : slateblue;
-}
-ul {
-list-style-type : none;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 100px 10px 100px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: slateblue;
 }
 .cardtitle {
-font-weight : bold;
-}
-.faqcard1 {
-color : slateblue;
-background-color : white;
-height : 200px;
-width : 90%;
-max-width : 1000px;
-border-radius : 30px;
-padding : 10px 0;
-text-align : center;
-margin : 10px auto;
-font-size : 30px;
-}
-
-.newscard {
-color : black;
-background-color : yellow;
-height : 200px;
-width : 900px;
-border-radius : 30px;
-padding : 10px 0 0 0;
-text-align : center;
-margin : 20px 30px 20px 490px;
-}
-@media (max-width: 768px) {
-.newscard{
-font-size : 20px;
-height : auto;
-padding : 20px 0;
-width : 90%;
-margin : 20px auto;
-}
-@media (max-width: 768px) {
-.faqcard1{
-font-size : 20px;
-height : auto;
-padding : 20px 0;
-width : 90%;
-margin : 20px auto;
-}
-.home .newsh1 {
-font-size : 40px;
-}
-button {
-background-color : red;
-margin : 10px 0 10px 0;
-height : 30px;
-width : 70px;
-border : none;
-border-radius : 0 20px 0 20px;
-}
-
-
-.home {
-background-color : white;
-height : 50px;
-width : 50px;
-margin : 0 auto;
-border-radius : 10px;
-padding : 5px 5px 0 5px;
-display : block;
-}
-}
-@media (min-width: 1200px) {
-.home {
-margin : 0 0 0 900px;
-}
+  font-weight: bold;
 }
 .github {
-background-color : darkorange;
-font-size : 20px;
-border-radius : 10px;
-padding : 5px 100px 10px 100px;
-display : block;
-text-align : center;
-margin : 10px;
-color : white;
+    background-color: darkorange;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 100px 10px 100px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: white;
 }
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: slateblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .indexcard {
-color : slateblue;
-background-color : white;
-height : 200px;
-width : 90%;
-max-width : 1000px;
-border-radius : 30px;
-padding : 10px 0;
-text-align : center;
-margin : 10px auto;
-font-size : 30px;
+    color: slateblue;
+    background-color: white;
+    height: 200px;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 30px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 30px;
 }
+    .newscard {
+        font-size: 20px;
+        height: 200px;
+        padding: 20px;
+        width: 1000px;
+        margin-left: 250px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: black;
+        background-color: yellow;
+        border-radius: 30px;
+    }
 @media (max-width: 768px) {
-.indexcard {
-font-size : 20px;
-height : auto;
-padding : 20px 0;
-width : 90%;
-margin : 20px auto;
+    .indexcard {
+        font-size: 20px;
+        height: auto;
+        padding: 20px 0;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .faqcard1 {
+        font-size: 18px;
+        height: auto;
+        padding: 20px; 
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .newscard {
+        font-size: 18px;
+        height: auto;
+        padding: 20px;
+        width: 90%;
+        margin: 20px auto;
+        color: black;
+        background-color: yellow;
+        border-radius: 30px;
+    }
+
+    .newsh1 {
+        font-size: 40px;
+    }
+
+    button {
+        background-color: red;
+        margin: 10px 0;
+        height: 30px;
+        width: 70px;
+        border: none;
+        border-radius: 0 20px 0 20px;
+    }
+
+    .home {
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        margin: 0 auto;
+        border-radius: 10px;
+        padding: 5px;
+        display: block;
+    }
 }
+
+@media (min-width: 1200px) {
+    .home {
+        margin: 0 0 0 750px;
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+        padding: 5px;
+        
+    }
 }
+
 .about {
-font-size : 30px;
-font-weight : bold;
-font-size : 25px;
+    font-size: 25px;
+    font-weight: bold;
 }
+
 .boykisser {
-border-radius : 50px;
-margin : 10px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.faqcard1 {
+    color: slateblue;
+    background-color: white;
+    height: 200px;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 30px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .faqcard1 {
+        font-size: 18px;
+        height: auto; 
+        padding: 20px;
+        width: 90%;
+        margin: 20px auto;
+    }
 }
