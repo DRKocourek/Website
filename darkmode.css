@@ -26,3 +26,9 @@ h3 {
   padding-left: 10px;
   border-radius: 20px;
 }
+.calculator {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: yellow;
+}

@@ -1,7 +1,12 @@
 let logo = "github";
 let picture = "";
+var firstnum = "";
+var secondnum = "";
 const el = document.querySelector("img");
 const pic = document.getElementById("picture");
+const elem = document.getElementsByClassName("screen");
+var operator = 0;
+let operatorsave = 0;
 function show(){
     const element=document.getElementById("text");
     element.innerHTML = "Meow"
@@ -63,4 +68,32 @@ function showpic() {
 }
 function rickroll() {
       window.open("https://youtu.be/dQw4w9WgXcQ?si=toqOp3HBRVml6q-0", "_blank");
+}
+function calculate(num) {
+  if (operatorsave===0) {
+    firstnum += String(num);
+    elem[0].innerHTML = firstnum;
+  }
+  else {
+    elem[0].innerHTML = "";
+    secondnum += String(num);
+    elem[0].innerHTML = secondnum;
+  }
+}
+function operation(operator) {
+  const operations = ["", "+", "-", "x", "/"];
+  operatorsave = operator;
+  elem[0].innerHTML = operations[operator];
+}
+function clean() {
+  elem[0].innerHTML = "";
+  firstnum = "";
+  secondnum = "";
+  operatorsave = 0;
+}
+function equals() {
+  firstnum = Number(firstnum);
+  secondnum = Number(secondnum);
+  equations = [0, firstnum+secondnum, firstnum-secondnum, firstnum * secondnum, firstnum/secondnum]
+  elem[0].innerHTML = equations[operatorsave]
 }
