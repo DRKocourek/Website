@@ -94,6 +94,11 @@ function clean() {
 function equals() {
   firstnum = Number(firstnum);
   secondnum = Number(secondnum);
-  equations = [0, firstnum+secondnum, firstnum-secondnum, firstnum * secondnum, firstnum/secondnum]
-  elem[0].innerHTML = equations[operatorsave]
+  equations = [firstnum, firstnum+secondnum, firstnum-secondnum, firstnum * secondnum, firstnum/secondnum];
+  elem[0].innerHTML = equations[operatorsave];
+  if (operatorsave!==0) {
+    firstnum="";
+  }
+  operatorsave=0;
+  secondnum="";
 }
