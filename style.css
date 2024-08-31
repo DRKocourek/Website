@@ -35,7 +35,7 @@ a:active {
     text-decoration: none;
     color: slateblue;
 }
-nav {
+.nav {
   color: white;
   background-color: cyan;
   max-width: 1000px;
@@ -43,7 +43,8 @@ nav {
   padding-top:5px;
   padding-bottom: 5px;
   border-radius: 10px;
-  margin: auto 450px;
+  margin-left: auto 450px;
+  display: inline-block;
 }
 
 ul {
@@ -161,12 +162,3 @@ ul {
     font-size: 30px;
 }
 
-@media (max-width: 768px) {
-    .faqcard1 {
-        font-size: 18px;
-        height: auto; 
-        padding: 20px;
-        width: 90%;
-        margin: 20px auto;
-    }
-}
