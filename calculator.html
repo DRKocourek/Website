@@ -1,0 +1,106 @@
+<head>
+    <title>Suffer</title>
+    <link rel="icon" href="img/icon.png">
+</head>
+<style>
+    body {
+    color: #3C7A89;
+    background-color: #003E38;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+    .calculator {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: black;
+  border: none;
+  color: white;
+  margin: 2px;
+}
+.other {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: orange;
+  border: none;
+  color: white;
+  margin: 2px;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: slateblue;
+}
+</style>
+<body>    
+
+<div style="background-color: lightgray; width: 300px; margin-left: 800px; border-radius: 30px; padding: 15px 0 15px 0;">
+    <p class="screen" style="font-weight: bold; font-size: 25px; width: 250px; height: 60px; background-color: gray; border-radius: 15px; text-align: center; margin: 0 auto; vertical-align: middle; color:black;"></p>
+    <br>
+    <button onclick="calculate(1);" class="calculator">1</button>
+    <button onclick="calculate(2);" class="calculator">2</button>
+    <button onclick="calculate(3);" class="calculator">3</button>
+    <button onclick="operation(1);" class="other">+</button>
+    <br>
+    <button onclick="calculate(4);" class="calculator">4</button>
+    <button onclick="calculate(5);" class="calculator">5</button>
+    <button onclick="calculate(6);" class="calculator">6</button>
+    <button onclick="operation(2);" class="other">-</button>
+    <br>
+    <button onclick="calculate(7);" class="calculator">7</button>
+    <button onclick="calculate(8);" class="calculator">8</button>
+    <button onclick="calculate(9);" class="calculator">9</button>
+    <button onclick="operation(3);" class="other">x</button>
+    <br>
+    <button onclick="equals();" class="other">=</button>
+    <button onclick="calculate(0);" class="calculator">0</button>
+    <button onclick="clean();" class="other">C</button>
+    <button onclick="operation(4);" class="other">/</button>
+  </div>
+  <p style="font-weight: bold; font-size: 20px;">By DRKocourek <a href="https://github.com/drkocourek"> <img src="https://drkocourek.stream/img/github.svg" width="20px" height="20px"> Github</a></p>
+  <h3 style="color: white; background-color: black; width: 1000px; border-radius: 15px; text-align: center; margin-left: 450px; font-size: 30px;">Download the Source Code <a href="calculator.html"download>Here</a> or  From <a href="https://github.com/DRKocourek/JavaScript_Calculator"> <img src="https://drkocourek.stream/img/github.svg"width="30px" height="30px">Github (recommended)</a></h3>
+</body>
+<script>
+    let firstnum = "";
+    var secondnum = "";
+    const elem = document.getElementsByClassName("screen");
+    var operator = 0;
+    var operatorsave = 0; 
+    function calculate(num) {
+  if (operatorsave===0) {
+    firstnum += String(num);
+    elem[0].innerHTML = firstnum;
+  }
+  else {
+    elem[0].innerHTML = "";
+    secondnum += String(num);
+    elem[0].innerHTML = secondnum;
+  }
+}
+    function operation(operator) {
+    const operations = ["", "+", "-", "x", "/"];
+    operatorsave = operator;
+    elem[0].innerHTML = operations[operator];
+}
+function clean() {
+  elem[0].innerHTML = "";
+  firstnum = "";
+  secondnum = "";
+  operatorsave = 0;
+}
+function equals() {
+  firstnum = Number(firstnum);
+  secondnum = Number(secondnum);
+  equations = [firstnum, firstnum+secondnum, firstnum-secondnum, firstnum * secondnum, firstnum/secondnum];
+  elem[0].innerHTML = equations[operatorsave];
+  if (operatorsave!==0) {
+    firstnum="";
+  }
+  firstnum="";
+  operatorsave=0;
+  secondnum="";
+}
+</script>

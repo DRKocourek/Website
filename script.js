@@ -7,6 +7,9 @@ const pic = document.getElementById("picture");
 const elem = document.getElementsByClassName("screen");
 var operator = 0;
 let operatorsave = 0;
+let randomnum1 = "";
+let randomnum2 = "";
+const randomel = document.getElementById("randomp");
 function show(){
     const element=document.getElementById("text");
     element.innerHTML = "Meow"
@@ -101,4 +104,10 @@ function equals() {
   }
   operatorsave=0;
   secondnum="";
+}
+function random() {
+  num1 = Number(document.getElementById("num1").value);
+  num2 = Number(document.getElementById("num2").value);
+  randomnum = Math.floor(Math.random() * num2) + num1;
+  randomel.innerHTML = "Your Random Number is: " + randomnum;
 }

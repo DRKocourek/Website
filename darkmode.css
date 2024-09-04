@@ -7,8 +7,6 @@ body {
 .imgbutton {
   margin-bottom: 50px;
 }
-img {
-}
 code {
   background-color: #878484;
   padding: 10px 200px 150px 10px;
@@ -24,11 +22,29 @@ h3 {
   font-size: 15px;
   margin-inline: 50px;
   padding-left: 10px;
+  margin-left: 810px;
   border-radius: 20px;
+  width: 260px;
 }
 .calculator {
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: black;
+  border: none;
+  color: white;
+  margin: 2px;
+}
+.other {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: orange;
+  border: none;
+  color: white;
+  margin: 2px;
+}
+label {
+  color: white;
+  font-weight: bold;
 }

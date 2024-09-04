@@ -24,8 +24,6 @@ body {
 }
 .download { 
   position: absolute;
-  left: 600px;
-  top: 375px;
   background-color: #FF5A5A;
   width: 200px;
   height: 60px;
@@ -54,8 +52,6 @@ span {
     border-radius: 15px;
   }
   .download {
-    left: 225px;
-    top: 440px;
     height: 45px;
     padding-bottom: 0px;
     padding-top: 0;

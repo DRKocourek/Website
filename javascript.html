@@ -24,29 +24,40 @@
     <img id="picture" src="" width="100px" height="100px">
     <br>
     <br>
-    <p class="screen" style="width: 200px; height: 50px; background-color: gray; border-radius: 30px; text-align: center; margin: 0 auto; vertical-align: middle; color:black;"></p>
+    <div style="background-color: lightgray; width: 300px; margin-left: 800px; border-radius: 30px; padding: 15 px 0 15px 0;">
+    <p class="screen" style="font-weight: bold; font-size: 25px; width: 250px; height: 60px; background-color: gray; border-radius: 15px; text-align: center; margin: 0 auto; vertical-align: middle; color:black;"></p>
     <br>
     <button onclick="calculate(1);" class="calculator">1</button>
     <button onclick="calculate(2);" class="calculator">2</button>
     <button onclick="calculate(3);" class="calculator">3</button>
-    <button onclick="operation(1);" class="calculator">+</button>
+    <button onclick="operation(1);" class="other">+</button>
     <br>
     <button onclick="calculate(4);" class="calculator">4</button>
     <button onclick="calculate(5);" class="calculator">5</button>
     <button onclick="calculate(6);" class="calculator">6</button>
-    <button onclick="operation(2);" class="calculator">-</button>
+    <button onclick="operation(2);" class="other">-</button>
     <br>
     <button onclick="calculate(7);" class="calculator">7</button>
     <button onclick="calculate(8);" class="calculator">8</button>
     <button onclick="calculate(9);" class="calculator">9</button>
-    <button onclick="operation(3);" class="calculator">x</button>
+    <button onclick="operation(3);" class="other">x</button>
     <br>
-    <button onclick="equals();" class="calculator">=</button>
+    <button onclick="equals();" class="other">=</button>
     <button onclick="calculate(0);" class="calculator">0</button>
-    <button onclick="clean();" class="calculator">C</button>
-    <button onclick="operation(4);" class="calculator">/</button>
+    <button onclick="clean();" class="other">C</button>
+    <button onclick="operation(4);" class="other">/</button>
+  </div>
     <br>
     <br>
+    <h2>Random Number Generator</h2>
+    <form onsubmit="return false">
+    <label> Range From:</label>
+    <input type="text" placeholder="From (number)" id="num1">
+    <label>To:</label>
+    <input type="text" placeholder="To (number)" id="num2">
+    <input type="submit" onclick="random();">
+    </form>
+    <p style="color: white; font-weight: bold;"id="randomp"></p>
     <h3>main.py</h3>
     <code>print()</code>
   <script src="script.js"></script>
