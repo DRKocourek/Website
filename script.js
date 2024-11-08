@@ -108,6 +108,6 @@ function equals() {
 function random() {
   num1 = Number(document.getElementById("num1").value);
   num2 = Number(document.getElementById("num2").value);
-  randomnum = Math.floor(Math.random() * num2) + num1;
+  randomnum = Math.floor( Math.random() * (num2 - num1) + num1);
   randomel.innerHTML = "Your Random Number is: " + randomnum;
 }
