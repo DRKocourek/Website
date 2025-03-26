@@ -159,7 +159,7 @@
      <p class="home"><a href="index"><img src="img/home.png" alt="" height=40px width=40px></a></p>
     </div>
     <script>
-    if (localStorage.getItem('darkmode')){
+    if (localStorage.getItem('darkmode')==='true'){
         console.log("Darkmode on");
         console.log(document.getElementById("checkbox").value);
         document.getElementById('theme').setAttribute('href', 'darkmode.css');
