@@ -1,5 +1,5 @@
 .card {
-  background-color: white;
+  background-color: #424242;
   width: 750px;
   margin-left: 550px;
   height: 350px;
@@ -9,7 +9,7 @@
   text-align: left;
 }
 body {
-  background-color: slateblue;
+  background-color: #212121;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
@@ -33,7 +33,7 @@ body {
   display: inline-flex;
   align-items: center;
 }
-.download img {
+img {
   padding-bottom: 20px;
   display: inline-flex;
   align-items: center;
@@ -61,7 +61,7 @@ body {
   .download span {
     padding-bottom: 5px;
   }
-  .download img {
+  img {
     padding-bottom: 20px;
     display: inline-flex;
     align-items: center;
@@ -81,7 +81,7 @@ a:link {
 
 .navtab{
   color: white;
-  background-color: cyan;
+  background-color:#545454;
   border-radius: 7px;
   padding: 3px;
 }
@@ -91,22 +91,13 @@ a:link {
 .navtab:hover,
 .navtab:active
 {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .currentnav{
+  background-color: #151515;
   color: white;
-  background-color: darkcyan;
   border-radius: 7px;
-  padding: 3px;
-}
-
-.currentnav:link,
-.currentnav:visited,
-.currentnav:hover,
-.currentnav:active
-{
-  text-decoration: none;
-  color: white;
+  padding: 5px;
 }

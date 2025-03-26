@@ -1,3 +1,19 @@
+.navtab{
+    color: white;
+    background-color: cyan;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.navtab:link,
+.navtab:visited,
+.navtab:hover,
+.navtab:active
+{
+    text-decoration: none;
+    color: white;
+}
+
 body {
     background-color: slateblue;
     font-family: Arial;
@@ -162,3 +178,18 @@ ul {
     font-size: 30px;
 }
 
+.currentnav{
+    color: white;
+    background-color: darkcyan;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.currentnav:link,
+.currentnav:visited,
+.currentnav:hover,
+.currentnav:active
+{
+    text-decoration: none;
+    color: white;
+}

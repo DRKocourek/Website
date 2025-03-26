@@ -1,50 +1,184 @@
+.navtab{
+  color: white;
+  background-color:#545454;
+  border-radius: 7px;
+  padding: 3px;
+}
+
+.navtab:link,
+.navtab:visited,
+.navtab:hover,
+.navtab:active
+{
+    text-decoration: none;
+    color: white;
+}
+
 body {
-    color: #3C7A89;
-    background-color: #003E38;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+  background-color: #212121;
+  font-family: Arial;
+  color:  #424242;
+  text-align: center;
 }
-.imgbutton {
-  margin-bottom: 50px;
+.redirect {
+  background-color: #424242;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px 100px 10px 100px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: wheat;
 }
-code {
-  background-color: #878484;
-  padding: 10px 200px 150px 10px;
+.cardtitle {
+font-weight: bold;
+}
+.github {
+  background-color: darkorange;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px 100px 10px 100px;
+  display: block;
+  text-align: center;
+  margin: 10px;
   color: white;
-  text-align: left;
-  margin-inline: 0 0 0 100px;
-  border-radius: 20px;
 }
-h3 {
-  color: white;
-  text-align: left;
-  background-color: black;
-  font-size: 15px;
-  margin-inline: 50px;
-  padding-left: 10px;
-  margin-left: 810px;
-  border-radius: 20px;
-  width: 260px;
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #696969;
 }
-.calculator {
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-  background-color: black;
-  border: none;
-  color: white;
-  margin: 2px;
+.nav {
+color: white;
+background-color: #545454;
+max-width: 1000px;
+max-height:30px;
+padding-top:5px;
+padding-bottom: 5px;
+border-radius: 10px;
+margin-left: auto 450px;
+display: inline-block;
 }
-.other {
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-  background-color: orange;
-  border: none;
-  color: white;
-  margin: 2px;
+
+ul {
+  list-style-type: none;
 }
-label {
+
+.indexcard {
   color: white;
+  background-color: darkslategray;
+  height: 200px;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 30px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 30px;
+}
+  .newscard {
+      font-size: 20px;
+      height: 200px;
+      padding: 20px;
+      width: 1000px;
+      margin-left: 425px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: black;
+      background-color: yellow;
+      border-radius: 30px;
+  }
+@media (max-width: 1080px) {
+  .indexcard {
+      font-size: 20px;
+      height: auto;
+      padding: 20px 0;
+      width: 90%;
+      margin: 20px auto;
+  }
+
+  .faqcard1 {
+      font-size: 18px;
+      height: auto;
+      padding: 20px; 
+      width: 90%;
+      margin: 20px auto;
+  }
+
+  .newscard {
+      font-size: 18px;
+      height: auto;
+      padding: 20px;
+      width: 90%;
+      margin: 20px auto;
+      color: black;
+      background-color: yellow;
+      border-radius: 30px;
+  }
+
+  .newsh1 {
+      font-size: 40px;
+  }
+
+  button {
+      background-color: red;
+      margin: 10px 0;
+      height: 30px;
+      width: 70px;
+      border: none;
+      border-radius: 0 20px 0 20px;
+  }
+
+  .home {
+      background-color: white;
+      height: 50px;
+      width: 50px;
+      margin: 0 auto;
+      border-radius: 10px;
+      padding: 5px;
+      display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home {
+      margin: 0 0 0 900px;
+      background-color: white;
+      height: 50px;
+      width: 50px;
+      border-radius: 10px;
+      padding: 5px;
+      
+  }
+}
+
+.about {
+  font-size: 25px;
   font-weight: bold;
+}
+
+.faqcard1 {
+  color: white;
+  background-color: darkslategray;
+  height: 200px;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 30px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 30px;
+}
+
+.redirect svg #svgg #path0 {
+  fill: white;
+}
+.currentnav{
+  background-color: #151515;
+  color: white;
+  border-radius: 7px;
+  padding: 5px;
 }

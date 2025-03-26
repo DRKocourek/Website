@@ -3,20 +3,132 @@
 <html>
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="projects.css"/>          
+  <link id="theme" rel="stylesheet" href="projects.css"/>          
   <meta name="author" content="DRKocourek">
   <meta name="description" content="DRKocourek Projects Download"/>
         <link rel="icon" href="img/icon.png" type="image/x-icon">
   <title>DRKocourek</title>
+  <style>
+  .switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 4em;
+  height: 2.2em;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2a2a2a;
+  transition: 0.4s;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.2em;
+  width: 1.2em;
+  border-radius: 20px;
+  left: 0.5em;
+  bottom: 0.5em;
+  transition: 0.4s;
+  transition-timing-function: cubic-bezier(0.81, -0.04, 0.38, 1.5);
+  box-shadow: inset 8px -4px 0px 0px #fff;
+}
+
+.switch input:checked + .slider {
+  background-color: #00a6ff;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(1.8em);
+  box-shadow: inset 15px -4px 0px 15px #ffcf48;
+}
+
+.star {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  width: 5px;
+  transition: all 0.4s;
+  height: 5px;
+}
+
+.star_1 {
+  left: 2.5em;
+  top: 0.5em;
+}
+
+.star_2 {
+  left: 2.2em;
+  top: 1.2em;
+}
+
+.star_3 {
+  left: 3em;
+  top: 0.9em;
+}
+
+.switch input:checked ~ .slider .star {
+  opacity: 0;
+}
+
+.cloud {
+  width: 3.5em;
+  position: absolute;
+  bottom: -1.4em;
+  left: -1.1em;
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.switch input:checked ~ .slider .cloud {
+  opacity: 1;
+}
+
+</style>
 </head>
 <body>
     <h1 style="font-size: 50px;">Projects</h1>
-      <nav>
-    <a style="color:white; background-color:cyan; border-radius:7px; padding:3px;" href="about.html" class="nav">About Me</a>
-    <a style="color:white; background-color:cyan; border-radius:7px; padding:3px;" href="index.html" class="nav">Homepage</a>
-    <a style="color:white; background-color:darkcyan; border-radius:7px; padding:3px;" href="projects.html" class="nav">Projects</a>
-    <a style="color:white; background-color:cyan; border-radius:7px; padding:3px;" href="news.html" class="nav">News</a>
-    <a style="color:white; background-color:cyan; border-radius:7px; padding:3px;" href="blog/index.html" class="nav">Blog</a>
+    <label class="switch" id="switch">
+      <input checked="true" id="checkbox" type="checkbox" />
+      <span class="slider">
+        <div class="star star_1"></div>
+        <div class="star star_2"></div>
+        <div class="star star_3"></div>
+        <svg viewBox="0 0 16 16" class="cloud_1 cloud">
+          <path
+            transform="matrix(.77976 0 0 .78395-299.99-418.63)"
+            fill="#fff"
+            d="m391.84 540.91c-.421-.329-.949-.524-1.523-.524-1.351 0-2.451 1.084-2.485 2.435-1.395.526-2.388 1.88-2.388 3.466 0 1.874 1.385 3.423 3.182 3.667v.034h12.73v-.006c1.775-.104 3.182-1.584 3.182-3.395 0-1.747-1.309-3.186-2.994-3.379.007-.106.011-.214.011-.322 0-2.707-2.271-4.901-5.072-4.901-2.073 0-3.856 1.202-4.643 2.925"
+          ></path>
+        </svg>
+      </span>
+  </label>  
+    <nav>
+        <a href="about.html" class="navtab">About Me</a>
+        <a href="index.html" class="navtab">Homepage</a>
+        <a href="projects.html" class="currentnav">Projects</a>
+        <a href="news.html" class="navtab">News</a>
+        <a href="blog/index.html" class="navtab">Blog</a>
     </nav>
     <ul class="card">
       <li class="cardtitle">Web Calculator</li>
@@ -34,7 +146,7 @@
       <li class="note">HTML file All OS with</li>
       <li class="note">Web Browser</li>
     </ul>
-    <a class="download" href="calculator.html"style="position: absolute; left: 600px; top: 375px; @media (max-width:1080px) {padding-top:0px; left: 225px; top: 440px;}"><img src="img/hand-pointer.svg" width="30px" height="30px" style="display: inline-flex; padding-top: 20px; @media (max-width:1080px) {padding-top:0px;}"><span>Try Here</span></a>
+    <a class="download" href="calculator.html"style="position: absolute; left: 31%; top: 42%; @media (max-width:1080px) {padding-top:0px; left: 225px; top: 440px;}"><img src="img/hand-pointer.svg" width="30px" height="30px" style="display: inline-flex; padding-top: 20px; @media (max-width:1080px) {padding-top:0px;}"><span>Try Here</span></a>
   
   <ul class="card">
     <li class="cardtitle">Test Project</li>
@@ -48,6 +160,40 @@
     <li class="note">PNG file All OS with</li>
     <li class="note">Photo Viewer</li>
   </ul>
-  <a class="download" href="img/boykisser.png"download style="position: absolute; left: 600px; top: 750px; @media (max-width:1080px) {padding-top:0px; left: 225px; top: 740px;}"><img src="img/download.svg" width="40px" height="40px" style="display: inline-flex; padding-top: 20px; @media (max-width:1080px) {padding-top:0px;}"><span>Download</span></a>
+  <a class="download" href="img/boykisser.png"download style="position: absolute; left: 31%; top: 80%; @media (max-width:1080px) {padding-top:0px; left: 225px; top: 740px;}"><img src="img/download.svg" width="40px" height="40px" style="display: inline-flex; padding-top: 20px; @media (max-width:1080px) {padding-top:0px;}"><span>Download</span></a>
 
+  <script>
+    if (localStorage.getItem('darkmode')){
+        console.log("Darkmode on");
+        console.log(document.getElementById("checkbox").value);
+        document.getElementById('theme').setAttribute('href', 'darkprojects.css');
+        localStorage.setItem('darkmode', true);
+        document.getElementById('checkbox').checked = false;
+    } else {
+        console.log("Darkmode off");
+        document.getElementById('theme').setAttribute('href', 'projects.css');
+        localStorage.setItem('darkmode', false);
+        document.getElementById('checkbox').checked = true;
+    }
+    console.log(localStorage.getItem('darkmode'));
+
+    console.log(document.getElementById('checkbox').checked);
+    document.getElementById("checkbox").addEventListener("change", function() {
+      if (!document.getElementById('checkbox').checked){
+        console.log("Darkmode on");
+        console.log(document.getElementById("checkbox").value);
+        document.getElementById('theme').setAttribute('href', 'darkprojects.css');
+        localStorage.setItem('darkmode', true);
+        console.log(localStorage.getItem('darkmode'));
+        
+      } else {
+        console.log("Darkmode off");
+        document.getElementById('theme').setAttribute('href', 'projects.css');
+        localStorage.setItem('darkmode', false);
+        console.log(localStorage.getItem('darkmode'));
+
+      }
+    });
+
+</script> 
 </body>
