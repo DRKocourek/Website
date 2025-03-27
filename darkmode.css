@@ -37,11 +37,13 @@ font-weight: bold;
   background-color: darkorange;
   font-size: 20px;
   border-radius: 10px;
-  padding: 5px 100px 10px 100px;
-  display: block;
+  padding: 5px 0px 10px 0px;
+  display: inline-block;
   text-align: center;
   margin: 10px;
   color: white;
+  width: 60%;
+
 }
 
 a:link,
