@@ -164,16 +164,12 @@ ul {
     font-weight: bold;
 }
 
-.boykisser {
-    border-radius: 50px;
-    margin: 10px;
-}
 
 .faqcard1 {
     color: slateblue;
     background-color: white;
     height: 200px;
-    width: 90%;
+    width: 50%;
     max-width: 1000px;
     border-radius: 30px;
     padding: 10px 0;

@@ -164,15 +164,15 @@ ul {
 
 .faqcard1 {
   color: white;
-  background-color: darkslategray;
-  height: 200px;
-  width: 90%;
+  background-color: darkslategray;    
+  width: 30%;
   max-width: 1000px;
   border-radius: 30px;
   padding: 10px 0;
   text-align: center;
   margin: 10px auto;
   font-size: 30px;
+  display: inline-flexbox;
 }
 
 .redirect svg #svgg #path0 {
