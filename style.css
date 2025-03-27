@@ -168,14 +168,14 @@ ul {
 .faqcard1 {
     color: slateblue;
     background-color: white;
-    height: 200px;
-    width: 50%;
+    width: 30%;
     max-width: 1000px;
     border-radius: 30px;
     padding: 10px 0;
     text-align: center;
     margin: 10px auto;
     font-size: 30px;
+    display: inline-flexbox;
 }
 
 .currentnav{
