@@ -67,14 +67,15 @@ body {
 .cardtitle {
   font-weight: bold;
 }
-.github {
+.warning {
   background-color: darkorange;
-  font-size: 20px;
+  font-size: 17px;
   border-radius: 10px;
-  padding: 5px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
   display: inline-block;
   text-align: center;
   margin: 10px;
+  margin-bottom: 0;
   color: white;
   width: 60%;
 }
@@ -94,10 +95,62 @@ a:active {
   border-radius: 30px;
   padding-top: 0;
   padding-bottom: 0;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
   margin: 5px auto;
   font-size: 23px;
 }
+p.indexcard {
+  max-width: 900px;
+}
+.musiccard {
+  color: white;
+  width: 1000px;
+  background-color: gray;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-bottom: 0;
+  border: none;
+  height: 300px;
+  margin: 5px auto;
+  display: inline-block;
+  font-size: 14px;
+  -webkit-transition: background-color 500ms linear;
+  -moz-transition: background-color 500ms linear;
+  -o-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+
+.musiccard p {
+  padding-top: 0;
+  text-align: left;
+}
+
+.musiccard img {
+  display: inline-block;
+  padding-top: 10px;
+}
+.musiccard a {
+  color: black;
+  -webkit-transition: color 500ms linear;
+  -moz-transition: color 500ms linear;
+  -o-transition: color 500ms linear;
+  -ms-transition: color 500ms linear;
+  transition: color 500ms linear;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.musiccard a:hover,
+.musiccard a:active {
+  text-decoration: none;
+  color: #ff3399;
+}
+.musiccard:hover {
+  background-color: rgb(85, 85, 85);
+}
+
 .newscard {
   font-size: 20px;
   height: 200px;
@@ -137,4 +190,19 @@ a:active {
   color: white;
   border-radius: 7px;
   padding: 5px;
+}
+.indexcard a {
+  color: black;
+  -webkit-transition: color 500ms linear;
+  -moz-transition: color 500ms linear;
+  -o-transition: color 500ms linear;
+  -ms-transition: color 500ms linear;
+  transition: color 500ms linear;
+  font-weight: bolder;
+  font-size: 24px;
+}
+.indexcard a:hover,
+.indexcard a:active {
+  text-decoration: none;
+  color: #ff3399;
 }
